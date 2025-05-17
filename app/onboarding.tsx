@@ -45,7 +45,7 @@ export default function OnboardingScreen() {
       } catch (error) {
         console.error('Error saving onboarding status:', error);
       }
-      router.replace('/(tabs)/map');
+      router.replace('/favorites');
     }
   };
 
@@ -55,7 +55,7 @@ export default function OnboardingScreen() {
     } catch (error) {
       console.error('Error saving onboarding status:', error);
     }
-    router.replace('/(tabs)/map');
+    router.replace('/map');
   };
 
   return (
